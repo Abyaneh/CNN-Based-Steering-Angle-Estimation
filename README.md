@@ -17,6 +17,7 @@ In this university project, we designed and trained a CNN model capable of estim
 
 ## Introduction
 This project revolves around using a **Convolutional Neural Network (CNN)** to estimate the steering angle of a vehicle from images of its steering wheel. The images were captured using an **ESP32-CAM** Dev board, and the corresponding angles were measured with an **MPU6050 IMU sensor**. We then trained the CNN to predict the angles from the images, achieving surprisingly accurate results even with low-quality images.
+
 [Back to Top](#table-of-contents)
 ---
 
