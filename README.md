@@ -110,4 +110,5 @@ Contributions are always welcome! If you would like to collaborate, feel free to
 
 ## License
 This project is licensed under the **MIT License**. You are free to use, modify, and distribute this project. See the [LICENSE](LICENSE) file for more details.
+
 [Back to Top](#table-of-contents)
