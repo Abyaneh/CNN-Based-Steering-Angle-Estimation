@@ -38,7 +38,7 @@ This project revolves around using a **Convolutional Neural Network (CNN)** to e
 - **Model Training**: The **CNN** is trained using images as input and angles as labels.
 
 ![Camera setup](https://github.com/Abyaneh/CNN-Based-Steering-Angle-Estimation/blob/main/camera_setup.jpeg)
-![Data acquisition](data_aquisition.jpg)
+![Data acquisition](https://github.com/Abyaneh/CNN-Based-Steering-Angle-Estimation/blob/main/data_aquisition.jpeg)
 
 [Back to Top](#table-of-contents)
 
