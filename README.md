@@ -47,7 +47,7 @@ This project revolves around using a **Convolutional Neural Network (CNN)** to e
 ## Image Processing Layer
 We used the **Keras** library to design the CNN model, with an input size of **800x600 RGB images**. The output is a vector **[cosθ, sinθ]** where θ represents the steering angle. The model uses a **tanh** activation function in the final layer to ensure continuous outputs.
 
-![Comparison of predicted vs actual angles](comparison.jpg)
+![Comparison of predicted vs actual angles](https://github.com/Abyaneh/CNN-Based-Steering-Angle-Estimation/blob/main/comparison.jpeg)
 
 [Back to Top](#table-of-contents)
 
