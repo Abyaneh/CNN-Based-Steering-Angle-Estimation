@@ -72,3 +72,26 @@ Data was split into **90% for training** and **10% for validation**.
 2. Install dependencies using:
    ```bash
    pip install -r requirements.txt
+
+## Team Members
+- **Arman Javan Sekhavat**
+- **Amin Elmi Ghiasi**
+- **Mohammad Maleki Abyaneh(me)**
+
+---
+
+## Contributing
+Contributions are always welcome! If you would like to collaborate, feel free to:
+1. Fork this repository.
+2. Create a branch for your feature (`git checkout -b feature-branch`).
+3. Commit your changes (`git commit -m 'Add feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Open a pull request.
+
+---
+
+## License
+This project is licensed under the **MIT License**. You are free to use, modify, and distribute this project. See the [LICENSE](LICENSE) file for more details.
+
+
+
