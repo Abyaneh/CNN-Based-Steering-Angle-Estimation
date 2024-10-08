@@ -37,7 +37,7 @@ This project revolves around using a **Convolutional Neural Network (CNN)** to e
 - **Data Collection**: The IMU readings are stored in a **CSV file**, and images are saved as **JPEG** files.
 - **Model Training**: The **CNN** is trained using images as input and angles as labels.
 
-![Camera setup](camera_setup.jpg)
+![Camera setup](https://github.com/Abyaneh/CNN-Based-Steering-Angle-Estimation/blob/main/camera_setup.jpeg)
 ![Data acquisition](data_aquisition.jpg)
 
 [Back to Top](#table-of-contents)
