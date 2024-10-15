@@ -79,7 +79,7 @@ Data was split into **90% for training** and **10% for validation**.
 ---
 
 ## Video Demonstration
-[Video Demonstration](https://github.com/Abyaneh/CNN-Based-Steering-Angle-Estimation/blob/main/Comparision.mp4)]
+[Video Demonstration](https://github.com/Abyaneh/CNN-Based-Steering-Angle-Estimation/blob/main/Comparision.mp4)
 
 [Back to Top](#table-of-contents)
 
