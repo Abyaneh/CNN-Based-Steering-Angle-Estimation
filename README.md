@@ -37,8 +37,8 @@ This project revolves around using a **Convolutional Neural Network (CNN)** to e
 - **Data Collection**: The IMU readings are stored in a **CSV file**, and images are saved as **JPEG** files.
 - **Model Training**: The **CNN** is trained using images as input and angles as labels.
 
-![Camera setup](https://github.com/Abyaneh/CNN-Based-Steering-Angle-Estimation/blob/main/camera_setup.jpeg)
-![Data acquisition](https://github.com/Abyaneh/CNN-Based-Steering-Angle-Estimation/blob/main/data_aquisition.jpeg)
+![Camera setup](https://github.com/Abyaneh/CNN-Based-Steering-Angle-Estimation/blob/main/images/camera_setup.jpeg)
+![Data acquisition](https://github.com/Abyaneh/CNN-Based-Steering-Angle-Estimation/blob/main/images/data_aquisition.jpeg)
 
 [Back to Top](#table-of-contents)
 
@@ -60,7 +60,7 @@ Our dataset includes:
   
 Data was split into **90% for training** and **10% for validation**.
 
-![Passive Steering Wheel Image](https://github.com/Abyaneh/CNN-Based-Steering-Angle-Estimation/blob/main/PassiveSteeringWheel.jpeg)
+![Passive Steering Wheel Image](https://github.com/Abyaneh/CNN-Based-Steering-Angle-Estimation/blob/main/images/PassiveSteeringWheel.jpeg)
 
 [Back to Top](#table-of-contents)
 
@@ -79,7 +79,7 @@ Data was split into **90% for training** and **10% for validation**.
 ---
 
 ## Video Demonstration
-[Video Demonstration](https://github.com/Abyaneh/CNN-Based-Steering-Angle-Estimation/blob/main/Comparision.mp4)
+[Video Demonstration](https://github.com/Abyaneh/CNN-Based-Steering-Angle-Estimation/blob/main/video%20and%20report/Comparision.mp4)
 
 [Back to Top](#table-of-contents)
 
