@@ -1,22 +1,20 @@
 # CNN-Based Steering Angle Estimation
 
-In this university project, we designed and trained a CNN model capable of estimating the steering angle from an input image of a steering wheel. The project utilized an ESP32-CAM Dev board for image capture and an MPU6050 IMU sensor for measuring corresponding steering angles.
+In this project, we designed and trained a CNN model capable of estimating the steering angle from an input image of a steering wheel. The project utilized an ESP32-CAM Dev board for image capture and an MPU6050 IMU sensor for measuring corresponding steering angles.
 
 ## Table of Contents
-1. [Introduction](#introduction)
-2. [Features](#features)
-3. [Project Structure](#project-structure)
-4. [Image Processing Layer](#image-processing-layer)
-5. [Dataset](#dataset)
-6. [Technologies & Tools Used](#technologies--tools-used)
-7. [Video Demonstration](#video-demonstration)
-8. [How to Run the Project](#how-to-run-the-project)
-9. [Team Members](#team-members)
-10. [Contributing](#contributing)
-11. [License](#license)
+- [Introduction](#introduction)
+- [Features](#features)
+- [Image Processing Layer](#image-processing-layer)
+- [Dataset](#dataset)
+- [Video Demonstration](#video-demonstration)
+- [Technologies & Tools Used](#technologies--tools-used)
+- [Team Members](#team-members)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Introduction
-This project revolves around using a **Convolutional Neural Network (CNN)** to estimate the steering angle of a vehicle from images of its steering wheel. The images were captured using an **ESP32-CAM** Dev board, and the corresponding angles were measured with an **MPU6050 IMU sensor**. We then trained the CNN to predict the angles from the images, achieving surprisingly accurate results even with low-quality images.
+This project uses **Convolutional Neural Network (CNN)** to estimate the steering angle of a vehicle from images of its steering wheel. The images were captured using an **ESP32-CAM** Dev board, and the corresponding angles were measured with an **MPU6050 IMU sensor**. We then trained the CNN to predict the angles from the images, achieving accurate results even with low-quality images.
 
 [Back to Top](#table-of-contents)
 
@@ -28,17 +26,8 @@ This project revolves around using a **Convolutional Neural Network (CNN)** to e
 - Comparison between CNN-predicted and **IMU-measured angles**.
 - Real-time data collection and analysis.
 
-[Back to Top](#table-of-contents)
-
----
-
-## Project Structure
-- **ESP32-CAM Setup**: The ESP32-CAM captures images of the steering wheel’s positions, while an **MPU6050 IMU** sensor measures the corresponding angles.
-- **Data Collection**: The IMU readings are stored in a **CSV file**, and images are saved as **JPEG** files.
-- **Model Training**: The **CNN** is trained using images as input and angles as labels.
-
-![Camera setup](https://github.com/Abyaneh/CNN-Based-Steering-Angle-Estimation/blob/main/camera_setup.jpeg)
-![Data acquisition](https://github.com/Abyaneh/CNN-Based-Steering-Angle-Estimation/blob/main/data_aquisition.jpeg)
+![Camera setup](https://github.com/Abyaneh/CNN-Based-Steering-Angle-Estimation/blob/main/images/camera_setup.jpeg)
+![Data acquisition](https://github.com/Abyaneh/CNN-Based-Steering-Angle-Estimation/blob/main/images/data_aquisition.jpeg)
 
 [Back to Top](#table-of-contents)
 
@@ -47,9 +36,7 @@ This project revolves around using a **Convolutional Neural Network (CNN)** to e
 ## Image Processing Layer
 We used the **Keras** library to design the CNN model, with an input size of **800x600 RGB images**. The output is a vector **[cosθ, sinθ]** where θ represents the steering angle. The model uses a **tanh** activation function in the final layer to ensure continuous outputs.
 
-![Comparison of predicted vs actual angles](https://github.com/Abyaneh/CNN-Based-Steering-Angle-Estimation/blob/main/comparison.jpeg)
-
-[Back to Top](#table-of-contents)
+![Comparison of predicted vs actual angles](https://github.com/Abyaneh/CNN-Based-Steering-Angle-Estimation/blob/main/images/comparison.jpeg)
 
 ---
 
@@ -60,7 +47,14 @@ Our dataset includes:
   
 Data was split into **90% for training** and **10% for validation**.
 
-![Passive Steering Wheel Image](https://github.com/Abyaneh/CNN-Based-Steering-Angle-Estimation/blob/main/PassiveSteeringWheel.jpeg)
+![Passive Steering Wheel Image](https://github.com/Abyaneh/CNN-Based-Steering-Angle-Estimation/blob/main/images/PassiveSteeringWheel.jpeg)
+
+[Back to Top](#table-of-contents)
+
+---
+
+## Video Demonstration
+[Video Demonstration](https://github.com/Abyaneh/CNN-Based-Steering-Angle-Estimation/blob/main/video%20and%20report/Comparision.mp4)
 
 [Back to Top](#table-of-contents)
 
@@ -78,22 +72,6 @@ Data was split into **90% for training** and **10% for validation**.
 
 ---
 
-## Video Demonstration
-[Video Demonstration](https://github.com/Abyaneh/CNN-Based-Steering-Angle-Estimation/blob/main/Comparision.mp4)
-
-[Back to Top](#table-of-contents)
-
----
-
-## How to Run the Project
-1. Clone the repository.
-2. Install dependencies using:
-   ```bash
-   pip install -r requirements.txt
-
-[Back to Top](#table-of-contents)
-
----
 ## Team Members
 - **Arman Javan Sekhavat**
 - **Amin Elmi Ghiasi**
