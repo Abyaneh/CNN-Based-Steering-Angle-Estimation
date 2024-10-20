@@ -48,7 +48,8 @@ Our dataset includes:
   
 Data was split into **90% for training** and **10% for validation**.
 
-#### Train and validate set loss versus the epoch number for the gathered dataset
+
+#### Train and validate set loss versus the epoch number for the gathered dataset:
 
 ![Passive Steering Wheel Image](https://github.com/Abyaneh/CNN-Based-Steering-Angle-Estimation/blob/main/images/PassiveSteeringWheel.jpeg)
 
