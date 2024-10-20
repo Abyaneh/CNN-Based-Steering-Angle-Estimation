@@ -41,6 +41,7 @@ We used the **Keras** library to design the CNN model, with an input size of **8
 **Hint**: You can see the full video in the Video Demonstration section.
 
 [Back to Top](#table-of-contents)
+
 ---
 
 ## Dataset
