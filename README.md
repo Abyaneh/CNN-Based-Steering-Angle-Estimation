@@ -38,6 +38,7 @@ We used the **Keras** library to design the CNN model, with an input size of **8
 
 ![Comparison of predicted vs actual angles](https://github.com/Abyaneh/CNN-Based-Steering-Angle-Estimation/blob/main/images/comparison.jpeg)
 
+**Hint:** You can see the full video in the Video Demonstration section.
 ---
 
 ## Dataset
