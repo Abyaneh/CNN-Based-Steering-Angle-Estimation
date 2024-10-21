@@ -51,6 +51,8 @@ Our dataset includes:
   
 Data was split into **90% for training** and **10% for validation**.
 
+You can download all datasets in [this link]()
+
 
 #### Train and validate set loss versus the epoch number for the gathered dataset:
 
