@@ -38,6 +38,10 @@ We used the **Keras** library to design the CNN model, with an input size of **8
 
 ![Comparison of predicted vs actual angles](https://github.com/Abyaneh/CNN-Based-Steering-Angle-Estimation/blob/main/images/comparison.jpeg)
 
+**Hint**: You can see the full video in the Video Demonstration section.
+
+[Back to Top](#table-of-contents)
+
 ---
 
 ## Dataset
@@ -46,6 +50,9 @@ Our dataset includes:
 - **Steering Angles**: Measured using the **MPU6050 IMU**.
   
 Data was split into **90% for training** and **10% for validation**.
+
+
+#### Train and validate set loss versus the epoch number for the gathered dataset:
 
 ![Passive Steering Wheel Image](https://github.com/Abyaneh/CNN-Based-Steering-Angle-Estimation/blob/main/images/PassiveSteeringWheel.jpeg)
 
